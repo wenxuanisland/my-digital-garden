@@ -1,13 +1,60 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+@import url('https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css');
+
+* {
+  /* Screen version */
+  font-family: "LXGW WenKai Screen", sans-serif;
 }
+
+.backlink-list{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.markdown-preview-view ol{
+ padding-left: 0px;
+}
+
+p {
+  font-weight: 200 !important;
+  font-size: 18px !important;
+}
+
+a.internal-link.is-unresolved {
+    color: purple !important;
+}
+
+a.internal-link{
+   color: purple !important;
+}
+
+/* 未访问的链接 */
+p a:link {
+    color: blue ;
+}
+
+/* 访问过的链接 */
+p a:visited {
+    color: purple ;
+}
+
+/* 鼠标悬停在链接上时 */
+p a:hover {
+    color: red !important;
+}
+
+/* 链接被选中时 */
+p a:active {
+    color: green !important;
+}
+
+h1 {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
+    font-size: 22px !important;
+}
+
+
+h2 {
+    font-family: "LXGW WenKai Screen", sans-serif  !important;
+}
+
+

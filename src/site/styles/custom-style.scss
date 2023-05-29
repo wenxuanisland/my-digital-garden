@@ -57,4 +57,19 @@ h2 {
     font-family: "LXGW WenKai Screen", sans-serif  !important;
 }
 
+nav.filetree-sidebar {
+
+        h1::before {
+            content: " ";
+            display: block;
+            width: 100%;
+            height: 3em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(/img/outgoing.svg);
+            background-position: center;
+        }
+    }
+
+
 
